@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "569849535455",
+    "project_id": "conversor-de-imagem-em-texto",
+    "storage_bucket": "conversor-de-imagem-em-texto.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:569849535455:android:d6b3708f164fb6240c026a",
+        "android_client_info": {
+          "package_name": "com.example.imagem_para_texto_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "569849535455-ufabsi5t5b3jkdqv8a4pp2t3u6ebr4ut.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCtgUe83t4jr5aCEgWq0w6FAQsnzjCOZW0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "569849535455-ufabsi5t5b3jkdqv8a4pp2t3u6ebr4ut.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
