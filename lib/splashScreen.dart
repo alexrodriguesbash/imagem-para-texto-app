@@ -22,7 +22,7 @@ class _MySplashScreenState extends State<MySplashScreen> {
           color: Colors.black,
         ),
       ),
-      image: Image.asset("assets/img1.jpg"),
+      image: Image.asset("assets/imagem1.png"),
       photoSize: 130,
       backgroundColor: Colors.white,
       loaderColor: Colors.blue,

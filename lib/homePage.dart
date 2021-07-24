@@ -86,7 +86,7 @@ class _HomePageState extends State<HomePage>
       body: Container(
         decoration: BoxDecoration(
           image: DecorationImage(
-              image: AssetImage('assets/'), fit: BoxFit.cover),
+              image: AssetImage('assets/background.jpg'), fit: BoxFit.cover),
         ),
         child: Column(
           children: [
@@ -96,8 +96,8 @@ class _HomePageState extends State<HomePage>
             Container(
               height: 280,
               width: 250,
-              margin: EdgeInsets.only(top: 70),
-              padding: EdgeInsets.only(left: 28, bottom: 5, right: 18),
+              margin: EdgeInsets.only(top: 100),
+              padding: EdgeInsets.only(left: 28, bottom: 15, right: 18),
               child: SingleChildScrollView(
                 child: Padding(
                   padding: const EdgeInsets.all(12.0),
@@ -110,13 +110,13 @@ class _HomePageState extends State<HomePage>
               ),
               decoration: BoxDecoration(
                 image: DecorationImage(
-                    image: AssetImage('assets/'),
+                    image: AssetImage('assets/note.png'),
                     fit: BoxFit.cover),
               ),
             ),
 
             Container(
-              margin: EdgeInsets.only(top: 20, right: 140),
+              margin: EdgeInsets.only(top: 20),
               child: Stack(
                 children: [
                   Stack(
@@ -124,7 +124,7 @@ class _HomePageState extends State<HomePage>
 
                       Center(
                         child: Image.asset(
-                          'assets/',
+                          'assets/image.jpg',
                           height: 240,
                           width: 240,
                         ),
@@ -135,7 +135,7 @@ class _HomePageState extends State<HomePage>
 
 
                   Center(
-                    child: FlatButton(
+                    child: TextButton(
                       onPressed: ()
                       {
                         pickImageFromGallery();
@@ -153,7 +153,7 @@ class _HomePageState extends State<HomePage>
                                 height: 200,
                                 child: Icon(Icons.camera_front, size: 100, color: Colors.grey,),
                               ),
-                      ),
+                      ), 
                     ),
                   ),
                 ],
